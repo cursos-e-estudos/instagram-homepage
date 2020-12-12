@@ -30,6 +30,7 @@ body{
     align-items: center;
     justify-content: center;
     width: 50%;
+    filter: drop-shadow(10px 10px 10px #aaaaaa);
 }
 
 .left-side img {
@@ -55,6 +56,9 @@ body{
     padding: 1.3rem 0;
     border: 1px solid lightgray;
     margin: 0.5rem;
+    box-shadow: 4px 4px 15px #aaaaaa;
+
+    border-radius: 2%;
 }
 
 .group:nth-child(1) {
@@ -62,8 +66,8 @@ body{
 
 }
 
-.intagram-logo {
-    height: 3rem;
+.instagram-logo {
+    width: 11em;
 }
 
 .profile-photo {
